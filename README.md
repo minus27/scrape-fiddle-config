@@ -1,2 +1,2 @@
 # scrape-fiddle-config
-Add a button to capture Fastly Fiddle configuration components
+Tampermonkey script that adds a button to Fastly Fiddle to capture its configuration components
