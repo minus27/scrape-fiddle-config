@@ -4,8 +4,8 @@ Upon clicking said button, the Fiddle's configuration is captured, formatted, an
 
 A Fastly Fiddle:
 
-![Fiddle Screen Capture](https://raw.githubusercontent.com/minus27/scrape-fiddle-config/master/ScreenCapture.jpg)
+![Fiddle Screen Capture](https://raw.githubusercontent.com/minus27/scrape-fiddle-config/master/fiddleScreenCapture.jpg)
 
 The corresponding script output:
 
-![Output Screen Capture](https://raw.githubusercontent.com/minus27/scrape-fiddle-config/master/output.jpg)
+![Output Screen Capture](https://raw.githubusercontent.com/minus27/scrape-fiddle-config/master/outputScreenCapture.jpg)
