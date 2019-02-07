@@ -6,6 +6,12 @@ Upon clicking said button, the Fiddle's configuration is captured, formatted, an
 
 This script should work in [Greasemonkey](https://www.greasespot.net/), which is essentially Tampermonkey for other browsers, but it has not been tested, i.e. your mileage may vary.
 
+---
+
+**_Note: Never run a Tampermonkey/Greasemonkey script (including mine) or otherwise paste JavaScript into your browser's address/location bar or Console without first seeing what it is doing... _**
+
+---
+
 ## Installation
 1. If it is not installed already, install the [Tampermonkey Addon to Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)
 2. Go to the [JavaScript file for this project](https://github.com/minus27/scrape-fiddle-config/blob/master/Add%20Scrape%20Config%20to%20Fiddle.user.js)
