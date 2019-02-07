@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Add Scrape Config to Fiddle
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      1.0
 // @description  Add a button to Fastly Fiddle to capture its configuration components
 // @author       Stephen Kiel
-// @match        https://fiddle.fastlydemo.net/fiddle/*
+// @include      /^https://fiddle.fastlydemo.net((/)|(/fiddle/.*))?$/
 // @grant        none
 // ==/UserScript==
 
@@ -50,6 +50,7 @@
         // Get Origin Servers
         eH2 = myCreateElement("h2",eDiv,"Origin Servers");
         eOl = myCreateElement("ol",eDiv);
+        eOl.setAttribute("start","0");
         colTmp = document.getElementsByTagName("input");
         for (var i=0; i<colTmp.length; i++) {
             if (!colTmp[i].id.startsWith("origin-")) continue;
