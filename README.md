@@ -8,7 +8,7 @@ This script should work in [Greasemonkey](https://www.greasespot.net/), which is
 
 ---
 
-**Note: Never run a Tampermonkey/Greasemonkey script (including mine) or otherwise paste JavaScript code into your browser's address/location bar or Console without first seeing what it is doing...**
+**Note: Never run a Tampermonkey/Greasemonkey script (including mine), or otherwise paste JavaScript code into your browser's address/location bar or Console, without first seeing what it is doing**
 
 ---
 
