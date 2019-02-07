@@ -1,5 +1,5 @@
 # scrape-fiddle-config
-This is a Tampermonkey script that adds a button to Fastly Fiddle to capture its configuration components.
+This is a Tampermonkey script that adds a button to [Fastly Fiddle](https://fiddle.fastlydemo.net/) to capture its configuration components.
 Upon clicking said button, the Fiddle's configuration is captured, formatted, and dumped into a new page in your browser.
 
 A Fastly Fiddle:
