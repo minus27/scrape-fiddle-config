@@ -21,6 +21,6 @@ This script should work in [Greasemonkey](https://www.greasespot.net/), which is
 ## Screen Captures
 A Fastly Fiddle:
 
-![Fiddle Screen Capture](https://raw.githubusercontent.com/minus27/scrape-fiddle-config/master/fiddleScreenCapture.png)
+![Fiddle Screen Capture](https://raw.githubusercontent.com/minus27/scrape-fiddle-config/master/fiddleScreenCapture.jpg)
 
 To see the corresponding script output from the Glitch project, click [here](https://fastly-fiddle-formatter.glitch.me/?f01adda8).
