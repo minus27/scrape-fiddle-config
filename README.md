@@ -8,7 +8,7 @@ Tampermonkey is not needed and the Glitch project can be called directly by usin
 
 https://fastly-fiddle-formatter.glitch.me/?f01adda8
 
-This script should work in [Greasemonkey](https://www.greasespot.net/), which is essentially Tampermonkey for other browsers, but it has not been tested, i.e. your mileage may vary.
+This Tampermonkey script should work in [Greasemonkey](https://www.greasespot.net/), which is essentially Tampermonkey for other browsers, but it has not been tested, i.e. your mileage may vary.
 
 ---
 
