@@ -18,8 +18,8 @@ This script should work in [Greasemonkey](https://www.greasespot.net/), which is
 3. Click on the **Raw** button
 4. If Tampermonkey is installed and enabled, it will recognize the UserScript and ask you to (re-)install it
 5. Follow Tampermonkey's instructions...
-## Screen Captures
-A Fastly Fiddle:
+## Screen Capture
+[Fastly Fiddle f01adda8](https://fiddle.fastlydemo.net/fiddle/f01adda8):
 
 ![Fiddle Screen Capture](https://raw.githubusercontent.com/minus27/scrape-fiddle-config/master/fiddleScreenCapture.jpg)
 
