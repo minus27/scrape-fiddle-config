@@ -2,7 +2,11 @@
 
 ## Overview
 This is a [Tampermonkey](https://tampermonkey.net/) script for Google Chrome that adds a big, ugly, orange "GET CONFIG" button to [Fastly Fiddle](https://fiddle.fastlydemo.net/) to document its configuration components.
-Upon clicking said button, the Fiddle's ID is captured and then snet over to a [Glitch project](https://fastly-fiddle-formatter.glitch.me/), where the Fiddle's config is captured, formatted, and displayed in a browser page.
+Upon clicking said button, the Fiddle's ID is captured and then sent over to a [Glitch project](https://fastly-fiddle-formatter.glitch.me/), where the Fiddle's config is captured, formatted, and displayed in a browser page.
+
+Tampermonkey is not needed and the Glitch project can be called directly by using the Fastly Fiddle ID as the project's query parameter:
+
+https://fastly-fiddle-formatter.glitch.me/?f01adda8
 
 This script should work in [Greasemonkey](https://www.greasespot.net/), which is essentially Tampermonkey for other browsers, but it has not been tested, i.e. your mileage may vary.
 
