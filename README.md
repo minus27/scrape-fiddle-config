@@ -1,8 +1,8 @@
 # scrape-fiddle-config
 
 ## Overview
-This is a [Tampermonkey](https://tampermonkey.net/) script for Google Chrome that adds a big, ugly, orange "SCRAPE CONFIG" button to [Fastly Fiddle](https://fiddle.fastlydemo.net/) to capture its configuration components.
-Upon clicking said button, the Fiddle's configuration is captured, formatted, and dumped into a new page in your browser.
+This is a [Tampermonkey](https://tampermonkey.net/) script for Google Chrome that adds a big, ugly, orange "SCRAPE CONFIG" button to [Fastly Fiddle](https://fiddle.fastlydemo.net/) to document its configuration components.
+Upon clicking said button, the Fiddle's ID is captured and then snet over to a [Glitch project](https://fastly-fiddle-formatter.glitch.me/), where the Fiddle's config is captured, formatted, and displayed in a browser page.
 
 This script should work in [Greasemonkey](https://www.greasespot.net/), which is essentially Tampermonkey for other browsers, but it has not been tested, i.e. your mileage may vary.
 
@@ -23,6 +23,6 @@ A Fastly Fiddle:
 
 ![Fiddle Screen Capture](https://raw.githubusercontent.com/minus27/scrape-fiddle-config/master/fiddleScreenCapture.jpg)
 
-The corresponding script output:
+The corresponding script output from the Glitch project:
 
 ![Output Screen Capture](https://raw.githubusercontent.com/minus27/scrape-fiddle-config/master/outputScreenCapture.jpg)
