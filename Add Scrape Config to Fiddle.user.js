@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Add Scrape Config to Fiddle
 // @namespace    http://tampermonkey.net/
-// @version      2.0
+// @version      2.1
 // @description  Add a button to Fastly Fiddle to capture its configuration components
 // @author       Stephen Kiel
 // @include      /^https://fiddle.fastlydemo.net((/)|(/fiddle/.*))?$/
@@ -26,7 +26,7 @@
     eButton.style.marginRight = "8px";
     eButton.onclick = function() {
         if (/^\/fiddle\//.test(location.pathname)) {
-            window.open("https://get-fastly-fiddle-config.glitch.me/?"+location.pathname.replace(/^.*\//,""), "_blank");
+            window.open("https://fastly-fiddle-formatter.glitch.me/?"+location.pathname.replace(/^.*\//,""), "_blank");
         } else {
             alert("Unexpected Path");
         }
