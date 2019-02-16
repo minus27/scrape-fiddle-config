@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Add Scrape Config to Fiddle
 // @namespace    http://tampermonkey.net/
-// @version      2.1
+// @version      3.0
 // @description  Add a button to Fastly Fiddle to capture its configuration components
 // @author       Stephen Kiel
 // @include      /^https://fiddle.fastlydemo.net((/)|(/fiddle/.*))?$/
